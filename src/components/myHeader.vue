@@ -6,9 +6,16 @@ export default {
 </script>
 
 <template>
-  <h1>header</h1>
+  <header>
+    <h1>Yu-Gi-Oh! API</h1>
+  </header>
 </template>
 
-<style>
+<style lang="scss" scoped>
+  @use '../scss/main.scss';
+  header {
+    padding: 20px;
+    border-bottom: 1px solid black;
+  }
 
 </style>
